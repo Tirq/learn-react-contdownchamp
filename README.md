@@ -1,4 +1,4 @@
-# learn-react-contdownchamp
+# learn-react-countdownchamp
 
 ## Branch 1-first-example 
 ### Creating the project 
