@@ -13,12 +13,14 @@ cd src/
 touch index.js
 ```
 
-index.js
+_index.js file_
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
 
 ReactDOM.render(
-    <div>contdown champ following Udemy course named react-js-and-redux-mastering-web-apps by Tirq! ;)</div>, document.getElementById('root')
+    <div>
+        contdown champ following Udemy course named react-js-and-redux-mastering-web-apps by Tirq! ;)
+    </div>, document.getElementById('root')
 );
 ```
