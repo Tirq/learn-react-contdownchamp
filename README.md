@@ -7,3 +7,4 @@ npm install
 npm start
 ```
 
+See here the steps https://tirq.github.io/learn-react-countdownchamp/
