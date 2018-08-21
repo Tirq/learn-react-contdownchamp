@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 
 ReactDOM.render(
-    <div>contdown champ following Udemy course named react-js-and-redux-mastering-web-apps by Tirq!</div>, document.getElementById('root')
+    <App></App>, document.getElementById('root')
 );
