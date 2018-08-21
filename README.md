@@ -1,26 +1,9 @@
 # learn-react-countdownchamp
 
-## Branch 1-first-example 
-### Creating the project 
+
+Learning React based on Udemy's course https://www.udemy.com/react-js-and-redux-mastering-web-apps.
 ``` 
-create-react-app countdownchamp
-```
-### removing src folder
-```
-cd countdownchamp
-rm src/*
-cd src/
-touch index.js
+npm install
+npm start
 ```
 
-_index.js file_
-```
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-ReactDOM.render(
-    <div>
-        contdown champ following Udemy course named react-js-and-redux-mastering-web-apps by Tirq! ;)
-    </div>, document.getElementById('root')
-);
-```
