@@ -5,14 +5,14 @@
 ``` 
 create-react-app countdownchamp
 ```
-### removing src folder
+### Removing src folder
 ```
 cd countdownchamp
 rm src/*
 cd src/
 touch index.js
 ```
-###Creating first js page _index.js file_
+### Creating first js page _index.js file_
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
