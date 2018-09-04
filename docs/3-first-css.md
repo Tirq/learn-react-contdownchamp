@@ -38,12 +38,12 @@ instead of longer notation
 ### Changing content to index.jsx _file_, a static content from now
 ```
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'; //new
 
 class App extends Component {
     render () { 
         return (
-            <div className="App">
+            <div className="App"> //new
                 <div className="App-title">
                     Contdown to that day by Tirq!
                 </div>
