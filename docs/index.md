@@ -8,3 +8,5 @@
 [4-first-state](4-first-state.md)
 
 [5-first-change-state](5-first-change-state.md)
+
+[6-interactive-change-state](6-interactive-change-state.md)
