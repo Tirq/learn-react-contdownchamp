@@ -11,4 +11,4 @@
 
 [6-interactive-change-state](6-interactive-change-state.md)
 
-[7-clock-component](7-clock-components.md)
+[7-clock-component](7-clock-component.md)
