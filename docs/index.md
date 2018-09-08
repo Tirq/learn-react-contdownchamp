@@ -13,4 +13,4 @@
 
 [7-clock-component](7-clock-component.md)
 
-[8-first-props](first-props.md)
+[8-first-props](8-first-props.md)
