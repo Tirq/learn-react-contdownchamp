@@ -1,13 +1,15 @@
 # learn-react-countdownchamp
 
+[index](index.md)
+
 ## Branch 3-first-css
 
 ### Creating first CSS App.css _file_
-```
+```ruby
 cd src/
 touch App.css
 ```
-```
+```ruby
 .App{
     text-align: center;
     font-size: 35px;
@@ -28,15 +30,15 @@ touch App.css
 ```
 
 ### Using short notation in index.js _file_
-```
+```ruby
 <App/>
 ```
 instead of longer notation
-```
+```ruby
 <App></App>
 ```
 ### Changing content to index.jsx _file_, a static content from now
-```
+```ruby
 import React, { Component } from 'react';
 import './App.css'; //new
 

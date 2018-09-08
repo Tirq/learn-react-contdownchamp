@@ -1,10 +1,12 @@
 # learn-react-countdownchamp
 
+[index](index.md)
+
 ## Branch 7-clock-component
 
 ### Creating clock component to reduce and split code. 
 ### Creating first component Clock.jsx file_
-```
+```ruby
 import React, { Component } from 'react';
 import './App.css';
 
@@ -42,15 +44,15 @@ class Clock extends Component{
 export default Clock;
 ```
 ### Change App.jsx file_ to use Clock component and remove the div with put in the newest component 
-```
-//there is some code up...
+```ruby
+#there is some code up...
 import Clock from './Clock';
-//there is some code down...
+#there is some code down...
 render () { 
-    //there is some code up...
+#there is some code up...
     <div className="App-title">
         Contdown to {this.state.deadline}
     </div>
     <Clock/> //new
-//there is some code down...
+#there is some code down...
 ```

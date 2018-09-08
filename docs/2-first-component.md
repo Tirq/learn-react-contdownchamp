@@ -1,13 +1,18 @@
 # learn-react-countdownchamp
 
+[index](index.md)
+
 ## Branch 2-first-component
 
 ### Creating first component App.jsx file_
-```
+
+It is a good pattern keep all files with only one responsability and little as soon as possible. To easily that, React have the components.
+
+```ruby
 cd src/
 touch App.jsx
 ```
-```
+```ruby
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -23,7 +28,7 @@ class App extends Component {
 export default App;
 ```
 ### Replacing static div _index.js file_ to  use _App.jsx file_
-```
+```ruby
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'

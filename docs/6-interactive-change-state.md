@@ -1,9 +1,11 @@
 # learn-react-countdownchamp
 
+[index](index.md)
+
 ## Branch 6-interactive-change-state
 
 ### Creating first interactive content using new variable named newDeadline to receive content typed in input field in index.jsx _file_
-```
+```ruby
 //there is some code up...
 class App extends Component {
     constructor(props){

@@ -1,9 +1,11 @@
 # learn-react-countdownchamp
 
+[index](index.md)
+
 ## Branch 4-first-state
 
 ### Creating first react state in index.jsx _file_
-```
+```ruby
 //there is some code up...
 class App extends Component {
     constructor(props){ //new
