@@ -12,3 +12,5 @@
 [6-interactive-change-state](6-interactive-change-state.md)
 
 [7-clock-component](7-clock-component.md)
+
+[8-first-props](first-props.md)
