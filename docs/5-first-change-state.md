@@ -27,6 +27,9 @@ class App extends Component {
 ```
 
 ### You must never mutate or change state direcly
+The golden rule of React: never mutate state directly. I can’t repeat this enough. In order to change your state data, you can’t manipulate it like you would with normal variables. 
+For example, something like `x++` or `counter += 1` would be fine in any other case. 
+But in order to update state, you must use the setState() function and have new instances of data.
 ```ruby
 changeDeadline(){
     this.state.deadline = 'December 26, 2018' //wrong way
