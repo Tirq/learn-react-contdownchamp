@@ -38,4 +38,4 @@ class Clock extends Component{
         console.log('this.props', this.props ); //new 
     }
 #there is some code down...
-```ruby
+```
