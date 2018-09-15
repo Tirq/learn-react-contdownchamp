@@ -14,3 +14,5 @@
 [7-clock-component](7-clock-component.md)
 
 [8-first-props](8-first-props.md)
+
+[9-calculate-time](9-calculate-time.md)

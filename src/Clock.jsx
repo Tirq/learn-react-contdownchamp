@@ -13,7 +13,17 @@ class Clock extends Component{
         console.log('this.props', this.props );
     }
 
+    getTimeUntil(deadline){
+        const time = Date.parse(deadline) - Date.parse(new Date());
+        const seconds = Math.floor((time/1000) % 60);
+        const minutes = Math.floor((time/1000/60) % 60);
+        const hours = Math.floor(time/(1000*60*60) % 24);
+        const days = Math.floor(time/(1000*60*60*24));
+        console.log('seconds',seconds,'minutes',minutes,'hours',hours,'days', days);
+    }
+
     render(){
+        this.getTimeUntil(this.props.deadline);
         return(
             <div>
                 <div className="Clock-days">
