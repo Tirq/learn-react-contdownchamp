@@ -16,3 +16,5 @@
 [8-first-props](8-first-props.md)
 
 [9-calculate-time](9-calculate-time.md)
+
+[10-first-lifecycle-hooks](10-first-lifecycle-hooks.md)
